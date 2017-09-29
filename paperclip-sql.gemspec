@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name          = "paperclip-sql"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
 
   gem.homepage      = "https://github.com/alicebob/paperclip-sql"
   gem.description   = %q{Extends Paperclip with SQL storage.}
@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
 
   gem.license       = "MIT"
 
-  gem.add_dependency "paperclip", ">= 3.1", "< 5"
+  gem.add_dependency "paperclip", ">= 3.1"
 
   gem.add_development_dependency "activerecord", ">= 3.2"
 end
